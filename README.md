@@ -2,7 +2,9 @@
 
 This package provides utility functions to make simple calculation using javascript
 
-## How to use
+[![Build Status](https://travis-ci.org/csilva2810/simple-js-calc.svg?branch=master)](https://travis-ci.org/csilva2810/simple-js-calc)
+
+### How to use
 
 ```bash
 npm install simple-js-calc
