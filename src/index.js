@@ -1,3 +1,5 @@
-exports.hello = function (word) {
+function hello (word) {
     return 'Hello ' + word;
-}
+} 
+
+module.exports = hello;

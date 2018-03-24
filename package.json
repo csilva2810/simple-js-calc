@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/csilva2810/test-npm-package/issues"
   },
-  "homepage": "https://github.com/csilva2810/test-npm-package#readme"
+  "homepage": "https://github.com/csilva2810/test-npm-package#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
