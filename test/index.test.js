@@ -1,8 +1,14 @@
 var calc = require('../src/index');
 
 describe('calc', () => {
-    test('should return 4 when calc.sum(2, 2)', () => {
-        expect(calc.sum(2, 2)).toBe(4);
+    describe('Sum', () => {
+        test('should return 4 when calc.sum(2, 2)', () => {
+            expect(calc.sum(2, 2)).toBe(4);
+        });
+        
+        test('should return 8 when calc.sum([2, 2, 2, 2])', () => {
+            expect(calc.sum([2, 2, 2, 2])).toBe(8);
+        });
     });
 
     test('should return 4 when calc.sub(8, 4)', () => {

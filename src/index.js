@@ -1,4 +1,10 @@
 function sum (a, b) {
+    if (Array.isArray(a)) {
+        return a.reduce(function (prev, curr) {
+            return prev + curr;   
+        });
+    }
+
     return a + b;
 }
 
