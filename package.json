@@ -1,21 +1,21 @@
 {
-  "name": "test-npm-package",
+  "name": "simple-js-calc",
   "version": "1.0.0",
-  "description": "Testando publicação de pacote no NPM",
-  "main": "dist/index.js",
+  "description": "Funções utilitárias para fazer cálculos em JS",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csilva2810/test-npm-package.git"
+    "url": "git+https://github.com/csilva2810/simple-js-calc.git"
   },
   "author": "Carlos Silva <csilva2810@gmail.com> (http://github.com/csilva2810)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/csilva2810/test-npm-package/issues"
+    "url": "https://github.com/csilva2810/simple-js-calc/issues"
   },
-  "homepage": "https://github.com/csilva2810/test-npm-package#readme",
+  "homepage": "https://github.com/csilva2810/simple-js-calc#readme",
   "devDependencies": {
     "jest": "^22.4.3"
   }
