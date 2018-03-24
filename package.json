@@ -1,0 +1,19 @@
+{
+  "name": "test-npm-package",
+  "version": "1.0.0",
+  "description": "Testando publicação de pacote no NPM",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csilva2810/test-npm-package.git"
+  },
+  "author": "Carlos Silva <csilva2810@gmail.com> (http://github.com/csilva2810)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csilva2810/test-npm-package/issues"
+  },
+  "homepage": "https://github.com/csilva2810/test-npm-package#readme"
+}
